@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <title>Julien Bailly's CV</title>
+  </head>
+
+  <body>
+    
+      <header>
+        <div class="container">
+        <!-- nav bar -->
+        <nav class="navbar navbar-expand-md navbar-light bg-dark" id="top">
+          <div class="container-fluid">
+            <h2 class="text-light me-5" id="home">Julien BAILLY</h2>
+            <button
+              class="navbar-toggler bg-light"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-light"
+                    aria-current="page"
+                    href="#formation"
+                    >Formations</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-light"
+                    aria-current="page"
+                    href="#experience"
+                    >Experiences</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-light"
+                    aria-current="page"
+                    href="#divers"
+                    >Divers</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        </div>
+      </header>
+
+
+
+      <div class="container">
+      <section>
+        <!--accordion-->
+        <div class="row g-0">
+          <div class="col-3 d-none d-md-block">
+            <div class="accordion-flush position-fixed" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button pe-0 collapsed butonBody text-dark"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="false"
+                    aria-controls="collapseOne"
+                  >
+                    HTML / CSS
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body bg-dark text-light">
+                    <ul>
+                      <li>Maquettage</li>
+                      <li>Bootstrap</li>
+                      <li>Wordpress</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button pe-0 collapsed butonBody text-dark"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    PHP
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body bg-dark text-light">
+                    <ul>
+                      <li>Symfony</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button pe-0 collapsed butonBody text-dark"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    JS
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body bg-dark text-light">
+                    <ul>
+                      <li>Angular</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button pe-0 collapsed butonBody text-dark"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    Compétences transversales
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body bg-dark text-light">
+                    <ul>
+                      <li>Git</li>
+                      <li>Linux</li>
+                      <li>SQL</li>
+                      <li>Deploiement serveur</li>
+                      <li>SCRUM</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--carousel-->
+          <div class="col-12 col-md-9">
+            <div
+              id="carouselExampleControls"
+              class="carousel slide carousel-fade"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="img/code.png"
+                    class="d-block w-100"
+                    alt="code lines"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/clavier.png"
+                    class="d-block w-100"
+                    alt="keyboard"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/web.png"
+                    class="d-block w-100"
+                    alt="web wireframe"
+                  />
+                </div>
+              </div>
+            </div>
+            <section>
+<!--accordion small-->              
+            </section>
+            
+              <div class="accordion d-md-none" id="accordionSml">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button pe-0 collapsed butonBody bg-white text-dark"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="false"
+                      aria-controls="collapseOne"
+                    >
+                      HTML / CSS
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionSml"
+                  >
+                    <div class="accordion-body bg-dark text-light">
+                      <ul>
+                        <li>Maquettage</li>
+                        <li>Bootstrap</li>
+                        <li>Wordpress</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button pe-0 collapsed butonBody bg-white text-dark"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      PHP
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionSml"
+                  >
+                    <div class="accordion-body bg-dark text-light">
+                      <ul>
+                        <li>Symfony</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button pe-0 collapsed butonBody bg-white text-dark"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      JS
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionSml"
+                  >
+                    <div class="accordion-body bg-dark text-light">
+                      <ul>
+                        <li>Angular</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button
+                      class="accordion-button pe-0 collapsed butonBody bg-white text-dark"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour"
+                      aria-expanded="false"
+                      aria-controls="collapseFour"
+                    >
+                      Compétences transversales
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFour"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingFour"
+                    data-bs-parent="#accordionSml"
+                  >
+                    <div class="accordion-body bg-dark text-light">
+                      <ul>
+                        <li>Git</li>
+                        <li>Linux</li>
+                        <li>SQL</li>
+                        <li>Deploiement serveur</li>
+                        <li>SCRUM</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+          
+            <section class="formation">
+              <div class="">
+              <a href="#home" class="text-dark"
+                ><h2 class="text-center my-5 text-light  bg-success rounded-pill" id="formation">FORMATIONS</h2></a
+              >
+              <ul>
+                <li>Formation Développeur Web/Web mobile de mars à décembre 2021</li>
+                <li>DUT Génie Civil 2010 et 2011</li>
+                <li>Année de spécialisation en chimie 2001 et 2002</li>
+                <li>DUT Génie de l'environnement 1998 à 2000</li>
+              </ul>
+            </section>
+            <section class="experience">
+              <a href="#home" class="text-dark"
+                ><h2 class="text-center my-5 text-light  bg-success rounded-pill" id="experience">
+                  EXPERIENCES
+                </h2></a
+              >
+              <h3 class="mt-5 mb-3">
+                Conseiller Technique et expert Habitat Indigne pour la société
+                <a href="https://www.urbanis.fr" title="URBANiS" target="_blank"
+                  >URBANiS
+                </a>
+                <em>2013 à 2020</em>
+              </h3>
+              <ul class="">
+                <li>
+                  Réalisation de diagnostics de performances énergetiques,
+                  d'expertises techniques et de recommandations de travaux
+                </li>
+                <li>
+                  Membre du CODERST Habitat (COmmission Départementale
+                  d'Evaluation des Risques Sanitaires et Techniques) du Rhône
+                  représentant la profession du batiment
+                </li>
+                <li>
+                  Accompagnement des collectivités locales dans la mise en
+                  oeuvre de leurs politiques de lutte contre l'habitat indigne
+                </li>
+              </ul>
+              <h3 class="mt-5 mb-3">
+                Conseiller Technique sur une OPAH RU pour la société URBANiS
+                <em>10/2011 à 10/2012</em>
+              </h3>
+              <ul class="">
+                <li>Réalisation de diagnostics de performances énergetiques</li>
+                <li>
+                  Réalisation de comptes rendus sanitaires et techniques sur
+                  l'état du bâti
+                </li>
+                <li>
+                  Mise en place de recommandations de travaux et suivis
+                  operationnels
+                </li>
+              </ul>
+              <h3 class="mt-5 mb-3">
+                Projeteur structure béton armé pour Sogéa Caroni (groupe Vinci)
+                <em>juin à août 2011</em>
+              </h3>
+              <ul class="">
+                <li>
+                  Réalisation de plans d'executions et de ferraillage de
+                  structures (DAO)
+                </li>
+              </ul>
+              <h3 class="mt-5 mb-3">
+                Inspecteur de Salubrité au Service Communal d'Hygiène et de
+                Santé (SCHS) de la Ville de Lille <em>09/2007 à 09/2009</em>
+              </h3>
+              <ul class="">
+                <li>
+                  Réalisation de diagnostics de salubrité de l'habitat,
+                  d'enquêtes structurelles et environnementales
+                </li>
+                <li>
+                  Réalisation de relevés sonométriques visant à caractériser les
+                  nuissances potentielles resenties au sein de logements
+                </li>
+              </ul>
+              <h3 class="mt-5 mb-3">
+                Inspecteur de salubrité en charge du Valenciennois pour la DDASS
+                du Nord
+                <em>2007</em>
+              </h3>
+              <ul class="">
+                <li>
+                  Réalisation de diagnostics de salubrité de l'habitat ancien
+                </li>
+              </ul>
+              <h3 class="text-center text-dark mt-5 mb-3">Autres expériences</h3>
+              <ul>
+                <li>
+                  Technicien support ADSL pour Techcity Solutions <em>2006</em>
+                </li>
+                <li>
+                  Controle qualité des produits finis et conducteur de
+                  fabrication chez Blédina <em>2005</em>
+                </li>
+                <li>
+                  Responsable technique et chargé de clientèle sur une activité
+                  de paintball <em>Saison estivale 2002</em>
+                </li>
+                <li>
+                  Agent de collectivité pour la SARL Le Chenex
+                  <em>Saison hivernale 2002</em>
+                </li>
+                <li>
+                  Technicien en analyse de l'air pour la société SMC2
+                  <em>2002</em>
+                </li>
+              </ul>
+            </section>
+            <section class="divers">
+              <a href="#home" class="text-dark"
+                ><h2 class="text-center my-5 text-light bg-success rounded-pill" id="divers">DIVERS</h2></a
+              >
+              <ul>
+                <li>Trails</li>
+                <li>VTT</li>
+                <li>Randonnées</li>
+                <li>
+                  <a
+                    href="https://www.strava.com/athletes/34944158"
+                    target="_blank"
+                    >Mon strava</a
+                  >
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <footer class="mt-5">
+        <div class="row">
+          <div class="col-6 d-flex flex-column">
+            <p><a href="mailto:julienbailly08@gmail.com">Me contacter</a></p>
+          </div>
+          <div class="col-6 text-end">
+            <p>Ju Bailly 2021 All Rights Reserved</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!--div du container !!!-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

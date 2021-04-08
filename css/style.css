@@ -1,0 +1,59 @@
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+.formation ul{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.experience ul{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.divers ul{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+#formation:hover{
+  transition: 1s ease;
+  transform: scale(1.05)
+}
+
+#experience:hover{
+  transition: 1s ease;
+  transform: scale(1.05)
+}
+#divers:hover{
+  transition: 1s ease;
+  transform: scale(1.05)
+}
+
+#accordionExample {
+  max-width: 324px;
+  width: 100%;
+}
+@media screen and (max-width: 1400px) {
+  #accordionExample {
+    max-width: 279px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #accordionExample {
+    max-width: 234px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #accordionExample {
+    max-width: 174px;
+  }
+  body{
+    font-size: 0.8rem;
+  }
+}
+
+
