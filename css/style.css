@@ -20,18 +20,12 @@ li {
   list-style-type: none;
 }
 
-#formation:hover{
-  transition: 1s ease;
-  transform: scale(1.05)
+#formation, #experience, #divers {
+  transition: transform 1s ease;
 }
 
-#experience:hover{
-  transition: 1s ease;
-  transform: scale(1.05)
-}
-#divers:hover{
-  transition: 1s ease;
-  transform: scale(1.05)
+#formation:hover, #experience:hover, #divers:hover{
+  transform: translate(2%);
 }
 
 #accordionExample {
